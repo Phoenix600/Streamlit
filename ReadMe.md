@@ -1,19 +1,19 @@
-# Streamlit 
+# Streamlit
 
-## Methods 
+## Methods
+
 1. title() : Method lets you set the title of the web page.
-    - args : String 
+   - args : String
 2. subheader() Method lets you set the subTitle of the web page.
-    - args : String  
-3. button(): Method lets you add the Button on webPage 
-    - args : label="String"
+   - args : String
+3. button(): Method lets you add the Button on webPage
+   - args : label="String"
 4. text() : Method lets you add the text data on the web app
 
+## Markdown Manipulation With markdown() method
 
-## Markdown Manipulation With markdown() method 
-
-- markdown() method lets you write the markdown text 
-in your web application.
+- markdown() method lets you write the markdown text
+  in your web application.
 
 ```python
 import streamlit as st 
@@ -29,3 +29,12 @@ st.markdown("**This is unordered list**")
 
 ```
 
+## Create Tables 
+
+- Requirements :
+
+  - streamlit
+  - pandas
+- Steps :
+
+  1. import the pandas and streamlit module
