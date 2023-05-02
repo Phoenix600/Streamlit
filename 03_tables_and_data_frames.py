@@ -3,7 +3,7 @@ import streamlit as st
 
 class PandasTable : 
 
-    def init(self):
+    def __init__(self):
 
         # Table_table = pd.DataFrame
         Table = {
@@ -17,6 +17,6 @@ class PandasTable :
 
 
 
-OBJECT = PandasTable().init()
+OBJECT = PandasTable()
 # OBJECT.init()
 

@@ -16,7 +16,6 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 
-
 st.header("Check box in streamlit")
 st.checkbox(label="MD",value=False)
 st.checkbox(label="Quber",value=True)
@@ -36,3 +35,4 @@ st.markdown("# on_check propery : ")
 checkBox2 = st.checkbox(label="Red Label",value=True,on_change=onCheckedMethod)
 
 checkBox3 = st.checkbox(label="Blue Label",value=False,on_change=onCheckedMethod)
+
